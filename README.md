@@ -16,9 +16,12 @@ We are developing a recommender system within the QFlare application. This syste
 3. Model Testing and Evaluation
 4. Convert model into HDF5
 
-## Tools and Resources
+## Tools
 1. Code Platform: Google Colab
 2. Programming Language: Python
-3. Library: Pandas, Tensorflow, numpy, matplotlib
-4. Datasets: from various UTBK Preparation books [access here](https://drive.google.com/drive/folders/1AcEinBDjYzxP4g2nVyau5ZgWqzsK9o49) and for the datasets used in EXP Predictios, we generate dummy data using Google Spreadsheets
+3. Library: Pandas, Tensorflow, numpy, matplotlib, scikit-learn
+
+## Datasets
+1. The source of questions comes from various UTBK preparation books [access here](https://drive.google.com/drive/folders/1AcEinBDjYzxP4g2nVyau5ZgWqzsK9o49)
+2. For datasets used in EXP Predictios and recommender system, we generate dummy data using Google Spreadsheets [access here](https://github.com/Capstone-Buddies/Machine-Learning/tree/main/Dataset)
 
