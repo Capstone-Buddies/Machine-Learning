@@ -16,10 +16,7 @@ Additionally, we are implementing gamification to track users' learning progress
 1. Code Platform: Google Colab
 2. Programming Language: Python
 3. Libraries: Pandas, TensorFlow, NumPy, Matplotlib, scikit-learn
-4. Datasets: 
-   - Questions sourced from various UTBK Preparation books [access here](https://drive.google.com/drive/folders/1AcEinBDjYzxP4g2nVyau5ZgWqzsK9o49)
-   - Datasets for EXP Predictions and the recommender system are generated using Google Spreadsheets [access here](https://github.com/Capstone-Buddies/Machine-Learning/tree/main/Dataset)
-
+   
 ## Datasets
 1. The source of questions comes from various UTBK preparation books [access here](https://drive.google.com/drive/folders/1AcEinBDjYzxP4g2nVyau5ZgWqzsK9o49)
 2. For datasets used in EXP Predictions and the recommender system, we generate dummy data using Google Spreadsheets [access here](https://github.com/Capstone-Buddies/Machine-Learning/tree/main/Dataset)
