@@ -1,24 +1,25 @@
 # Machine Learning Repository
 
-We are developing a recommender system within the QFlare application. This system suggests a set of questions to users based on their performance in previous quizzes, aiming to enhance their understanding in weaker categories. Additionally, we aim to introduce gamification for users' learning progress with the leaderboard feature based on their EXP (Experience Points). To facilitate this, we have also developed an EXP Point prediction model using linear regression model.
+We are developing two models within the QFlare application. The first model is a recommender system that suggests questions to users based on their performance in previous quizzes. It aims to enhance their understanding in weaker categories by generating quizzes tailored to their needs. This system selects questions using calculated proportions and similarity scores, ensuring a personalized learning experience through content-based filtering. The goal is to help users improve in areas where they are weakest.
 
-## Team Members
-
-| Student ID      | Name                             | University                         |
-|-----------------|----------------------------------|------------------------------------|
-| M006D4KY2472    | Choiruddin Yusuf Setyawardhana  | Universitas Brawijaya              |
-| M272D4KY2825    | Muhammad Wira Ferdiansyah Liambo| Universitas Muslim Indonesia       |
-| M004D4KX2589    | Ivana Lita                       | Institut Teknologi Sepuluh Nopember|
+Additionally, we are implementing gamification to track users' learning progress, featuring a leaderboard that ranks users based on their EXP (Experience Points). To support this gamification feature, we have developed an EXP Point prediction model using TensorFlow's Deep Neural Network (DNN). This model predicts users' EXP based on their accuracy and duration in answering each question.
 
 ## ML Task
-1. Data Collection and preprocessing
+1. Data Collection and Preprocessing
 2. Model Development
-3. Model Testing and Evaluation
-4. Convert model into HDF5
+   - TPS & Literasi Recommender System using Cosine Similarity
+   - EXP leveling system using TF Deep Neural Network
+4. Model Testing and Evaluation
+5. Save and Convert model into HDF5
 
-## Tools and Resources
+## Tools
 1. Code Platform: Google Colab
 2. Programming Language: Python
-3. Library: Pandas, Tensorflow, numpy, matplotlib
-4. Datasets: from various UTBK Preparation books [access here](https://drive.google.com/drive/folders/1AcEinBDjYzxP4g2nVyau5ZgWqzsK9o49) and for the datasets used in EXP Predictios, we generate dummy data using Google Spreadsheets
+3. Libraries: Pandas, TensorFlow, NumPy, Matplotlib, scikit-learn
+4. Datasets: 
+   - Questions sourced from various UTBK Preparation books [access here](https://drive.google.com/drive/folders/1AcEinBDjYzxP4g2nVyau5ZgWqzsK9o49)
+   - Datasets for EXP Predictions and the recommender system are generated using Google Spreadsheets [access here](https://github.com/Capstone-Buddies/Machine-Learning/tree/main/Dataset)
 
+## Datasets
+1. The source of questions comes from various UTBK preparation books [access here](https://drive.google.com/drive/folders/1AcEinBDjYzxP4g2nVyau5ZgWqzsK9o49)
+2. For datasets used in EXP Predictions and the recommender system, we generate dummy data using Google Spreadsheets [access here](https://github.com/Capstone-Buddies/Machine-Learning/tree/main/Dataset)
